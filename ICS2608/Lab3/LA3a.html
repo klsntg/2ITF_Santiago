@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8/>
+        <title>SANTIAGO-Laboratory Activity #3</title>
+    </head>
+    <script>
+        function input() {
+            var names = new Array(5); 
+            var len = names.length;
+
+            for(i = 0; i < len; i++) {
+                names[i] = prompt("Enter name: " + " ");
+            }
+            
+            document.getElementById("names").innerHTML = "Inputted Names: " + names.join(", ") + "<br><br> Reverse Names: " + names.reverse().join(', ');
+
+        }
+    </script>
+    <style>
+       
+       body {
+            background-color: #f3dcd4;
+            font-family: 'Gothic A1', sans-serif;
+
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif ;
+            font-size: 30px;
+            letter-spacing:-1px;
+            font-weight: 500;
+        }
+
+        #btn {
+            background-color: #f2a68d;
+            color: #FFF5EE;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            width: 60px;
+
+        }
+
+    </style>
+    <body>
+            <h1>Enter five names and reverse its sequence</h1>
+            <input type="button" id="btn" value="Click" onclick="input()"><br><br>
+            <p id="names"></p><br>
+    </body>
+</html>

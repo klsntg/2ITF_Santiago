@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset=utf-8 />
+        <title>SANTIAGO-Laboratory Activity #3</title>
+        <script src="ExternalScript.js"></script>
+    <style>
+
+        body {
+            background-color: #f3dcd4;
+            font-family: 'Gothic A1', sans-serif;
+            font-weight: 300;  
+        }
+
+        #lab {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            letter-spacing:-1px;
+            font-weight: 400;
+            text-align: center;
+            text-transform:uppercase;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif ;
+            font-size: 30px;
+            letter-spacing:-1px;
+            font-weight: 500;
+        }
+
+        #p1, label {
+            font-family:'Gothic A1', sans-serif;
+            letter-spacing: -1px;
+            font-size: 20;
+        }
+
+        /*a*/
+
+        #btna {
+            background-color: #f2a68d;
+            color: #FFF5EE;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            width: 60px;
+        }
+
+        /*b*/
+
+        #result {
+            font-family: 'Gothic A1' sans-serif;
+            letter-spacing: -1px;
+            font-weight: bold;
+        }
+
+        #btnb {
+            background-color: #f2a68d;
+            color: #FFF5EE;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            width: 60px;
+        }
+
+
+        /*c*/
+
+        #compare {
+            font-family: 'Gothic A1' sans-serif;
+            letter-spacing: -1px;
+            font-weight: bold;
+        }
+
+        #btnc {
+            background-color: #f2a68d;
+            color: #FFF5EE;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            width: 80px;
+        }
+
+
+        /*d*/
+
+        #btnd {
+            background-color: #f2a68d;
+            color: #FFF5EE;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            width: 60px;
+        }
+
+
+    </style>
+    <body>
+            <h1 id="lab">Laboratory Activity 3</h1>
+            <hr>
+                    <h1>Reversing the sequence of names</h1>
+                    <p id = "p1">Click to reverse the sequence of names.</p>
+                    <input type="button" id="btna" value="Click" onclick="document.location='LA3a.html'"></button>
+            </hr>
+         
+            <hr>
+                    <h1>Finding the longest word</h1>
+                    <p id = "p1">Input a sentence and find the longest word. </p>
+                    <form id="Longestword">
+                        <label>Sentence: <input id = 'input' name="text "> &nbsp;</label>
+                        <button type="button" id="btnb" onclick="findLongestWord()">Find</button>
+                    </form>
+                    <p id = "result"></p>
+            </hr>
+
+            <hr>
+                    <h1>Comparing two numerical values</h1>
+                    <p id = "p1">Input two integers and compare which one is larger.</p>
+                    <form name="comForm">
+                        <label>First value:&nbsp; <input id = 'val1' name="text "></label><br><br>
+                        <label>Second value: <input id = 'val2' name="text"></label><br><br>
+                        <button type="button" id="btnc" onclick="compare()">Compare</button>
+                    </form>
+                    <p id = "compare"></p>
+            </hr>
+    
+            <hr>
+                    <h1>Displaying random images</h1>
+                    <p id = "p1">Click and see corgis in action!</p>
+                    <button type="button" id="btnd" onclick = getRandomImage()>Click</button><br><br>
+                    <span id="image"></span>  
+            </hr>
+    </body>
+</html>

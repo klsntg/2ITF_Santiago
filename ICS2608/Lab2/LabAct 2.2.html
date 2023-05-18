@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <script src="Sample2.js"></script>
+        <title>Santiago - Laboratory Activity 2.2</title>
+        <style>
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #F4C2C2;
+        } 
+        
+        p {
+            font: color rgba(110, 108, 112, 0.879);
+            font-size:15px;
+        }
+        
+        h1 {
+            font-family: 
+            font-family: 'Times New Roman', Times, serif;
+            font-size:50px;
+            letter-spacing:-2px;
+        }
+        
+        h3 {
+            font-weight: lighter;
+            font-size:20px;
+            letter-spacing:-2px;
+        }
+        form {
+           border-radius: 5px;
+           background-color: #a3bfe9;
+           padding: 5px 15px 15px 15px;
+           width: 250px;
+           
+        }
+
+        #circle {
+            align-items: center;       
+
+        }
+
+        #rectangle, #square {
+            margin-right: 150px;
+            
+
+        </style>
+        <body>
+            <h1>Laboratory Activity #2: Sample 2</h1>
+            <h3>Calculate the Area of the following shapes</h3>
+        
+            <table>
+                <tr>
+                    <th>
+                        <form id="triangle">
+                            <p>Triangle</p>
+                                Base:<input type="text" id="S1" name="base"/></br><br>
+                                Height:<input type="text" id="S2" name="height"/></br><br>
+                                <input type="button" value="Calculate" id="calculate" onclick="getValuesT()"/>
+                        </form>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <form id="rectangle">
+                            <p>Rectangle</p>
+                            Height:<input type="text" id="H" name="height"/><br></br>
+                            Width:<input type="text" id="W" name="width"/><br></br>
+                            <input type="button" value="Calculate" onclick="getValuesR()"/>
+                        </form>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <form id="circle">
+                        <p>Circle</p>
+                            Radius:<input type="text" id="R" name="radius" onclick="this.value=''"/><br></br>
+                            <input type="button" value="Calculate" onclick="getValuesC()"/>
+                        </form>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <form id="square">
+                        <p>Square</p>
+                            Side:<input type="text" id="S" name="side" onclick="this.value=''"/></br></br>
+                            <input type="button" value="Calculate" onclick="getValuesS()"/> 
+                        </form>   
+                    </th>
+                </tr>
+
+            </table>          
+        </body>
+    </head>
+</html>

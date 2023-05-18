@@ -1,0 +1,52 @@
+body{
+    background-color:#92A8D1;
+    font-size:16px;
+    font-style: normal; 
+    font-variant: normal;
+    text-align: center; 
+}
+
+p em{color:red}
+
+h1{
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    text-align: center;
+    color: red;
+}
+
+h2{
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    line-height: 26.4px;
+    text-align: center;
+    color: yellow;
+}
+
+legend{
+    font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 500; 
+    line-height: 26.4px;
+    
+}
+
+fieldset{
+    border-style: solid;
+    border-width:20px 20px;
+}
+
+
+
+
+
+
+

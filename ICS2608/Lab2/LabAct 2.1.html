@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Santiago - Laboratory Activity 2: Sample #1</title>
+    </head>
+
+    <script>
+        function set_backgroundtoPink() {
+            docBody = document.getElementsByTagName("body")[0];
+            myBodyElements =docBody.getElementsByTagName("p");
+            myp1 = myBodyElements[0];
+            myp1.style.background="#FFFFFF";
+            myp2 = myBodyElements[1];
+            myp2.style.background="#FFFFFF";
+            myp3 = myBodyElements[2];
+            myp3.style.background="#FFFFFF";
+            myp4 = myBodyElements[3];
+            myp4.style.background="#FFFFFF";
+            document.body.style.backgroundColor="#F4C2C2";
+        
+        }
+
+        function set_backgroundtoPurple() {
+            docBody = document.getElementsByTagName("body")[0];
+            myBodyElements =docBody.getElementsByTagName("p");
+            myp1 = myBodyElements[0];
+            myp1.style.background="#FFFFFF";
+            myp2 = myBodyElements[1];
+            myp2.style.background="#FFFFFF";
+            myp3 = myBodyElements[2];
+            myp3.style.background="#FFFFFF";
+            myp4 = myBodyElements[3];
+            myp4.style.background="#FFFFFF";
+            document.body.style.backgroundColor="#F0CEFF"; 
+
+        }
+        
+        function set_backgroundtoBlue() {
+            docBody = document.getElementsByTagName("body")[0];
+            myBodyElements =docBody.getElementsByTagName("p");
+            myp1 = myBodyElements[0];
+            myp1.style.background="#FFFFFF";
+            myp2 = myBodyElements[1];
+            myp2.style.background="#FFFFFF";
+            myp3 = myBodyElements[2];
+            myp3.style.background="#FFFFFF";
+            myp4 = myBodyElements[3];
+            myp4.style.background="#FFFFFF";
+            document.body.style.backgroundColor="#8CD3FF"; 
+        }
+
+    </script>
+    <style>
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing:-2px;
+        }
+
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+            border-radius: 4px;
+            letter-spacing:-1px;
+        }
+
+    </style>
+    <body>
+            <h1>Laboratory Activity 2.1</h1>
+            <p>University of Santo Tomas</p>
+            <p>College of Information and Computing Sciences </p>
+            <p>Information Technology</p>
+            <p>Keila Santiago</p>
+            <input type="button" value="PINK" onclick="set_backgroundtoPink()">
+            <input type="button" value="PURPLE" onclick="set_backgroundtoPurple()">
+            <input type="button" value="BLUE" onclick="set_backgroundtoBlue()">
+
+    </body>
+</html>

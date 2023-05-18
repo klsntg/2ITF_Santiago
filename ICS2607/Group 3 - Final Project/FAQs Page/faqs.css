@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+* {
+  font-family: 'Poppins';
+}
+
+body {
+  /* background: url(https://i.imgur.com/yhuNE7R.png); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 100px;
+  height: 80px;
+  margin-left: 20px;
+  /* margin-top: 3px; */
+  float: left;
+}
+
+.navbar {
+  margin-top: -10px;
+  width: 100%;
+}
+
+.navbar ul {
+  text-align: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-family: 'Poppins';
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 20px;
+  transition: all ease 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: whitesmoke;
+  text-shadow: 0 0 5px black;
+}
+
+.faq-heading{
+    border-bottom: black;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 63%;
+  margin: auto;
+  
+}
+
+.hr-line1 {
+  width: 100%;
+  margin: auto;
+  
+}
+
+.faq-page {
+  color: black;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+  width: 50%; 
+  padding: auto;
+   
+}
+
+.active, .faq-page:hover {
+  background-color: #6257e3;
+}
+
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-page:after {
+  content: '\02795';
+  font-size: 13px;
+  color: black;
+  /* float: right; */
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+
+}
